@@ -21,22 +21,27 @@ jobs:
           user: zyqVizzzzz
           token: ${{ secrets.METRICS_TOKEN }}
           output_path: github-metrics.svg
-          template: classic
+          # template: classic
           base: header, activity, community, repositories
           config_timezone: Asia/Shanghai
 
-          plugin_introduction: false
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_secrets: yes
-
-          plugin_languages: yes
+          base_indepth: false
+          base_hireable: false
+          base_skip: false
+          plugin_languages: true
           plugin_languages_limit: 8
-          plugin_languages_colors: github
           plugin_languages_threshold: 0%
-          plugin_isocalendar: yes # 年度贡献日历图
-          # plugin_habits: yes # 编码习惯
-          # plugin_people: yes # 关注者、赞助者等
+          plugin_languages_other: false
+          plugin_languages_colors: github
+          plugin_languages_sections: most-used
+          plugin_languages_indepth: false
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_load: 300
+          plugin_languages_recent_days: 14
+          config_timezone: Asia/Shanghai
+          config_display: large
 
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
