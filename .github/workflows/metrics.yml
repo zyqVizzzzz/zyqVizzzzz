@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Generate Metrics
-        uses: lowlighter/metrics@v3.34.0
+        uses: lowlighter/metrics@latest
         with:
           user: zyqVizzzzz
           token: ${{ secrets.METRICS_TOKEN }}
