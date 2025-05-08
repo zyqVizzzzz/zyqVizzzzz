@@ -23,7 +23,6 @@ jobs:
           output_path: github-metrics.svg
           # template: classic
           base: header, activity, community, repositories
-          config_timezone: Asia/Shanghai
 
           base_indepth: false
           base_hireable: false
