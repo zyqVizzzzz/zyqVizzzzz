@@ -1,4 +1,9 @@
-## Hi there 👋
+## Hi there 👋, I'm YourUsername!
+
+<!-- GitHub Metrics -->
+<p align="center">
+  <img src="/github-metrics.svg" alt="Metrics" width="96.5%">
+</p>
 
 <!--
 **zyqVizzzzz/zyqVizzzzz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
