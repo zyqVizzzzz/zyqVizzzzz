@@ -6,12 +6,8 @@
   <img src="/github-metrics.svg" alt="Metrics" width="96.5%">
   <p align="center">
     <a href="https://skillicons.dev">
-      <h3>Languages: </h3>
-      <img src="https://skillicons.dev/icons?i=c,cs,cpp,css,dart,go,html,java,js,kotlin,py,ts,ocaml&perline=13" />
-      <h3>Platforms & Frameworks: </h3>
-      <img src="https://skillicons.dev/icons?i=astro,dotnet,express,fastapi,flask,flutter,nodejs,prisma,react,vue,svelte,tailwind,remix,yarn&perline=13" />
-      <h3>Tools & Systems</h3>
-      <img src="https://skillicons.dev/icons?i=ae,apple,bash,docker,git,pnpm,idea,linux,md,mongodb,nginx,ps,postgres,powershell,pr,pycharm,redis,rider,vercel,vscode,windows&perline=13" />
+      <h3>Skill: /h3>
+      <img src="https://skillicons.dev/icons?i=js,html,css,ts,nodejs,nestjs,vue,vite,astro,threejs,redis,mongodb,tailwind,solidity,redhat,github,react,redux&theme=light&perline=13" />
     </a>
   </p>
 </div>
